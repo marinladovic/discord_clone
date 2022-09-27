@@ -30,7 +30,7 @@ function Register() {
 
   return (
     <main className="w-full h-screen bg-indigo-600 flex items-center justify-center">
-      <div className="flex flex-col max-w-[480px] bg-zinc-700 p-8 rounded-lg shadow-lg">
+      <div className="flex flex-col w-[480px] bg-zinc-700 p-8 rounded-lg shadow-lg">
         <h1 className="text-white font-body text-2xl font-bold tracking-wide text-center">
           Create an account
         </h1>
@@ -60,7 +60,7 @@ function Register() {
           {/* passwrd input */}
           <div className="flex flex-col">
             <label className="text-gray-300 font-body text-xs font-medium tracking-wide mb-2 uppercase">
-              passwrd
+              password
             </label>
             <input
               type="password"
@@ -145,7 +145,7 @@ function Register() {
           to={`/login`}
           className="mt-2 text-sky-500 font-body text-sm hover:underline focus:underline"
         >
-          Already have an account?
+          A?lready have an account
         </Link>
       </div>
     </main>
