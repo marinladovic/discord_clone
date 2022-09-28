@@ -1,5 +1,6 @@
 import Navigation from '../components/Navigation';
 import Sidebar from '../components/Sidebar';
+import Spinner from '../components/Spinner';
 
 function Profile() {
   return (
